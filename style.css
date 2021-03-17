@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#all{
+	background: #abf7ff;
+}
+
+#header{
+	background: #0070A6;
+	min-height: 55px;
+	padding: 33px 5%;
+	font-family: AWAKENNING;
+	
+}
+
+#main{
+	
+	min-height: 444px;
+	padding: 0 5%;
+	font-family: Corbel;
+}
+
+#welcome{
+	width: 75%;
+	float: left;
+	padding: 0 5% 5% 0;
+	
+
+}
+
+#sidebarwidget{
+	width: 20%;
+	float: right;
+	padding: 0 2% 5% -10;
+	font-family: Gill Sans MT;
+}
+
+#social{
+	width: 15%;
+	float: left;
+	
+	font-family: Gill Sans MT;
+}
+
+
+#nav{
+	background: #0095C6;
+	min-height: 60px;
+	padding: 10 5%;
+}
+
+#footer{
+	clear: both;
+	background: #0070A6;
+	min-height: 22x;
+	padding: 33px 5%;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Courier New;
+	
+}
+
+#header h1{
+	color: #FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+#nav ul{
+	margin:0;
+	padding:0;
+	height: auto;
+}
+
+#nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	height: 60 px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#nav ul li{
+	color: #FFFFFF ;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 40px;
+	display: block;
+	padding: 10px 33px;
+}
+
+#nav ul li a:hover, #nav ul li a.active{
+	background:#00A9E1;
+}
+
+p{
+	line-height: 25px;
+	text-align: justify;
+ }	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

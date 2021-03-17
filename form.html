@@ -1,0 +1,145 @@
+<html lang="en">
+
+  <head>
+    <title>AL MAHIN SIGN IN FORM</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  <style>
+  *{
+  margin:0;
+  padding:0;font-family:verdana;
+}
+.bgimage{
+  background-color:black;
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(127deg, #004E95 50%, #0a84c6 50%);
+}
+.divcenter{
+  width:350px;
+  height:450px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  background-image:linear-gradient(127deg,#81aad0 50%,#356da0 50%);
+  transform: translate(-50%,-50%);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+#profilepic{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  position:relative;
+  top:-50px;      /*akane 50% diyece karon opore 100% ase tai*/
+  left: calc( (350px - 100px) / 2 );
+}
+h2{
+  text-align:center;
+  text-transform:uppercase;
+  color:orange;
+  font-size:2em;
+  margin-top:-50px;
+  margin-bottom:50px;
+  text-shadow: -2px 2px 1px red; 
+}
+.inputbox{
+  width:calc(100% - 40px);
+  color:#2f3c48;
+  background-color:white;
+  height:30px;
+  display: block;
+  margin:auto;
+  border:none;
+  padding: 0 10px;
+  box-sizing: border-box;
+  
+}
+::placeholder{
+  letter-spacing: 1px;
+  color: grey;
+  opacity: 50%;
+  font-size:20px;
+}
+button{
+  width:calc(100% - 40px);
+  color:white;
+  height:30px;
+  display:block;
+  margin:auto;
+  border:none;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #0A84C6;
+  font-size:0.8em;
+}
+.forgotpassword{
+  width:calc(100% - 40px);
+  color:white;
+  line-height: 30px;
+  background-color:dodgerblue;
+  margin:auto;
+  text-transform:uppercase;
+  font-size:0.8em;
+  text-align:right;
+  padding-right:20px;  
+  box-sizing: border-box;
+}
+.mahin{
+  width:calc(100% - 40px);
+  color:white;
+  line-height: 30px;
+  background-color:red;
+  margin:auto;
+  text-transform:uppercase;
+  font-size:0.8em;
+  text-align:center;
+  padding-right:20px;  
+  box-sizing: border-box;
+}
+.regesterbutton{
+  width:calc(100% - 40px);
+  color:white;
+  line-height: 30px;
+  background-color:dodgerblue;
+  margin:auto;
+  text-transform:uppercase;
+  font-size:0.8em;
+  text-align:right;
+  padding-right:20px;  
+  box-sizing: border-box;
+}
+  </style>
+    <div class="bgimage">
+      <div class="divcenter">
+        <img src="almahinlogo.png" id="profilepic" height=100px width=100px/>
+        <h2> USER SIGN IN</h2><br>
+        <form>
+          <div>
+            <input type="text" name="" class="inputbox" placeholder="Email address">
+          </div><br>
+          <div>
+            <input type="password" name="" class="inputbox" placeholder="Password">
+          </div><br>
+          <div>
+            <button type="submit"> Sign In</button>
+          </div><br>
+        </form>
+        <div class="forgotpassword">
+          <h4> Forgot Password?</h4>
+        </div>
+		 
+		<br>
+        <div class="regesterbutton">
+          <h5>Sign up Now</h5>
+        </div>
+		<br>
+		<a href="index.html">
+		<div class="mahin">
+          <h4> MADE BY AL MAHIN</h4>
+        </div>
+		</a>
+      </div>
+    </div>
+  </body>
+</html>
